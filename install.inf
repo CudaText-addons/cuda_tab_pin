@@ -1,0 +1,10 @@
+[info]
+title=Tab Pin
+desc=Tab Pin like browsers (first - tabs with icons without names, then - regular tabs)
+type=cudatext-plugin
+subdir=cuda_tab_pin
+homepage=https://github.com/ildarkhasanshin/cuda_tab_pin
+
+[item1]
+section=events
+events=on_start2
