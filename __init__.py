@@ -26,7 +26,7 @@ class Command:
                 return e.get_prop(PROP_INDEX_TAB)
 
     def update_title(self, ed_self):
-        fn = ed_self.get_filename()
+        fn = ed_self.get_prop(PROP_FN, '')
         if not fn:
             return
 
