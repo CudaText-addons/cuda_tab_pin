@@ -13,6 +13,9 @@ class Command:
             self.set_index_tab(ed_self)
             self.update_title(ed_self)
 
+    def on_save(self, ed_self):
+        self.update_title(ed_self)
+
     def set_index_tab(self, ed_self):
         ed_self.set_prop(PROP_INDEX_TAB, self.get_tab_index(ed_self))
 

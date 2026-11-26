@@ -7,4 +7,4 @@ homepage=https://github.com/ildarkhasanshin/cuda_tab_pin
 
 [item1]
 section=events
-events=on_start2
+events=on_start2,on_save

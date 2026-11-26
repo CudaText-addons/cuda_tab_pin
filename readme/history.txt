@@ -1,2 +1,5 @@
+2026.11.26
+[*] now on save name not shown
+
 2026.11.25
 initial
