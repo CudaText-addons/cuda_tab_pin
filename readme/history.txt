@@ -1,4 +1,5 @@
 2026.11.26
+[*] minor fixes
 [*] now on save name not shown
 
 2026.11.25
