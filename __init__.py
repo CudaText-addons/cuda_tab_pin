@@ -5,9 +5,6 @@ class Command:
     def __init__(self):
         self.saved_ed_titles = {}
 
-    def on_start2(self, ed_self):
-        app_proc(PROC_EVENTS_SUB, 'cuda_tab_pin;on_state_ed;;')
-
     def on_state_ed(self, ed_self, state):
         if state == EDSTATE_PINNED:
             self.set_index_tab(ed_self)
@@ -26,7 +23,7 @@ class Command:
                 return e.get_prop(PROP_INDEX_TAB)
 
     def update_title(self, ed_self):
-        fn = ed_self.get_filename()
+        fn = ed_self.get_prop(PROP_FN, '')
         if not fn:
             return
 
